@@ -1,0 +1,9 @@
+1. Kullanıcıdan dizinin boyutunu al.
+2. Eğer boyut <= 0 ise hata mesajı ver ve programı sonlandır.
+3. Boyuta göre bir dizi oluştur.
+4. Kullanıcıdan dizinin elemanlarını al ve diziye kaydet.
+5. İlk elemanı max ve min olarak ayarla.
+6. Diziyi baştan sona dolaş:
+   a. Eğer eleman max'tan büyükse, max = eleman.
+   b. Eğer eleman min'den küçükse, min = eleman.
+7. max ve min değerlerini ekrana yazdır.

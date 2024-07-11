@@ -1,0 +1,14 @@
+    // generics :Parametrelendirilmiş data tipi anlamına gelir.
+    //Java  Generics class, metod veya interfaceleri kullanırken farklı referans veri tipleriyle çalışmamızı sağlayan yaplardır.
+
+    En sık kullanılan parametre adları:
+    E:Eleman        T:Tip      V:Değer(value)
+    K:Anahtar(key)              N:Sayı(number)
+
+Java Genetics faydaları:
+1-)Type-safety(tür güvenliği) Java derleyicisi kodlarda tür denetimi uygular.
+2-Type casting işlemine gerek kalmaz
+3-)Programcıların  genel algoritmalar uygulamasını sağlar.
+
+
+
