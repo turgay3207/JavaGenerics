@@ -34,7 +34,7 @@ public class GenericUpperBound<T extends Number> {
         System.out.println(obj2.getAvarege());
 
       //  GenericUpperBound<String> obj3=new GenericUpperBound<>(stringArr);
-// Generic data tiplerini üstten sınırlanırabiliriz,
+     // Generic data tiplerini üstten sınırlanırabiliriz,
 
 
 
