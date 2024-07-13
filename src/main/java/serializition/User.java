@@ -1,4 +1,4 @@
-package sterilization;
+package serializition;
 
 import java.io.Serializable;
 
