@@ -36,7 +36,7 @@ public class Runner {
                 System.out.println("Password gucunuz YUKSEK seviyededir!!!!!");
                 break;
             default:
-                System.out.println("Herhangi bir zorluk derecesi secmediniz!!! & Zrlık derecesini buyuk harfle gırınız");
+                System.out.println("Herhangi bir zorluk derecesi secmediniz!!! & Zorluk derecesini buyuk harfle giriniz");
                 break;
         }
     }
@@ -54,6 +54,5 @@ public class Runner {
                 System.out.println("Password gucunuz YUKSEK seviyededir!!!!!");
                 break;
         }
-
     }
 }
