@@ -3,7 +3,7 @@ package threads;
 public class MultiThreading02 {
 
     public static int counter=0;
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         Thread thread1=new Thread(new Runnable() {
             @Override
@@ -15,6 +15,7 @@ public class MultiThreading02 {
         });
         thread1.setName("Tom");
         thread1.start();
+        thread1.join();// threadleri bekletir join fakat cözüm olmaz
 
         Thread thread2=new Thread(new Runnable() {
             @Override
