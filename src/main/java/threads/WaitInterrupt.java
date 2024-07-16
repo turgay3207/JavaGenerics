@@ -1,11 +1,11 @@
 package threads;
 /*
- bir öğrencinin banka hesabı icin para yatırma(deposit) ve cekme (withraw) icin uygulama
+ bir tüketici banka hesabı icin para yatırma(deposit) ve cekme (withraw) icin uygulama
  hesapta para yoksa para yatırılması  bakıyenın artması beklensin
- bakite artınca yeterli olunca para cemke gerceklessin.
+ bakite artınca yeterli olunca para cekme gerceklessin.
  */
 public class WaitInterrupt {
-    public static int balance=0;
+    public static int balance=2000;
 
     public static void main(String[] args) {
         WaitInterrupt obj=new WaitInterrupt();
